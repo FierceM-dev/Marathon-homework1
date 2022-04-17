@@ -1,0 +1,249 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #201b2d;
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+
+/*.animated {
+	opacity: 0;
+}*/
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+}
+
+p {
+	line-height: 1.65em;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.header {
+	background: rgba(78,189,254,1);
+	background: -moz-linear-gradient(left, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(78,189,254,1)), color-stop(100%, rgba(55,144,217,1)));
+	background: -webkit-linear-gradient(left, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -o-linear-gradient(left, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -ms-linear-gradient(left, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: linear-gradient(to right, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebdfe', endColorstr='#3790d9', GradientType=1 );
+	padding-top: 62px;
+	padding-bottom: 72px;
+	color: #fff;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.offer {
+	width: 557px;
+}
+
+.title {
+	font-size: 36px;
+}
+
+.title span {
+	font-size: 50px;
+}
+
+.intro {
+	margin-bottom: 21px;
+	margin-top: 47px;
+	width: 413px;
+	height: 91px;
+}
+
+.btn {
+	font-family: 'Montserrat', sans-serif;
+	background: #ffd429;
+	color: #000;
+	font-size: 15px;
+	font-weight: 900;
+	display: block;
+	width: 222px;
+	padding: 19px 0;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+
+.btn:hover {
+	background: #d9860e;
+}
+
+.desktop {
+	margin-top: 10px;
+}
+
+.learn {
+	padding-top: 108px;
+	padding-bottom: 120px;
+}
+
+.section-title {
+	font-size: 30px;
+	text-align: center;
+}
+
+.skills {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 73px;
+}
+
+.skill {
+	width: 350px;
+}
+
+.ic {
+	display: block;
+	margin: 0 auto;
+	max-height: 60px;
+}
+
+.skill-title {
+	font-size: 18px;
+	margin-top: 29px;
+	margin-bottom: 17px;
+	text-align: center;
+}
+
+.skill-text {
+	margin-top: 7px;
+	font-size: 15px;
+	text-align: center;
+}
+
+.mail {
+	background: #ecf3f8;
+	padding-top: 105px;
+	padding-bottom: 102px;
+}
+
+.form {
+	margin-top: 57px;
+}
+
+.input {
+	width: 345px;
+	display: block;
+	border: 1px solid #bfb8d1;
+	font-size: 15px;
+	border-radius: 3px;
+	font-family: 'Open Sans', sans-serif;
+	height: 48px;
+	padding-left: 38px;
+	margin: 0 auto 15px auto;
+}
+
+.btn-form {
+	border: 0;
+	width: 345px;
+	cursor: pointer;
+	margin: 0 auto;
+}
+
+.footer {
+	padding: 62px 0 66px 0;
+	background: #164d7a; 
+}
+
+.credits {
+	color: #fff;
+	text-align: center;
+	font-size: 14px;
+	margin: 0;
+}
+
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 960px;
+	}
+
+	p {
+		width: auto;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px;
+	}
+
+	.wrapper {
+		flex-direction: column;
+	}
+
+	.offer {
+		width: auto;
+		margin-top: 176px;
+	}
+
+	.intro {
+		width: auto;
+	}
+
+	.skills {
+		flex-direction: column;
+		align-items: center;
+		margin-top: 0;
+	}
+
+	.skill {
+		margin-top: 70px;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+
+	.btn {
+		width: auto;
+	}
+
+	.btn-form {
+		width: 345px;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+	}
+
+	.desktop {
+		display: block;
+		width: 100%;
+	}
+
+	.skill {
+		width: 320px;
+	}
+
+	.input {
+		width: 90%;
+	}
+
+	.btn-form {
+		width: 90%;
+	}
+}
